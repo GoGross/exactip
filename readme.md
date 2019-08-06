@@ -5,6 +5,13 @@
 
 Identify your visitor using their IP address. ExactIP runs in multiple datacenters around the world to provide a thourough and guaranteed geo service.
 
+## :cloud: Installation
+
+```sh
+# Using npm
+npm install --save exactip
+
+```
 
 ## Getting started
 
@@ -27,7 +34,7 @@ All ExactIP API endpoints require an access token generated from your dashboard 
 
 ExactIP is CORS enabled and allows Access-Control Headers. This will enable you to use our API via Cross-Origin HTTP Requests in application/json, application/x-www-form-urlencoded, multipart/form-data, text/plain. You don't need to specify any headers to make a CORS request as they are enabled by default.
 
-## Example Code
+## :clipboard: Example
 
 ### NodeJS
 ```js
