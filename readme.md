@@ -1,4 +1,4 @@
-![FinCharts](https://raw.githubusercontent.com/GoGross/exactip/master/exactip.png)
+<a href="url"><img src="https://raw.githubusercontent.com/GoGross/exactip/master/exactip.png" align="left" height="65" width="180" ></a>
 
 # ExactIP
 
