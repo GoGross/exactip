@@ -12,7 +12,7 @@ Identify your visitor using their IP address. ExactIP runs in multiple datacente
 
 Signup for a free account at exactip.gogross.com to obtain a free API Key.
 
-This documentation mainly focuses on developer/technical integration for application consumption. Depending on your subscription plan, you will have access to our feature rich API that will allow you integrate FinCharts in your application using any backend of your choice. Only enterprise plans allow for Push Notifications, Web Socket integration. We advise you to browse through our documentation page to appreciate the power of Fincharts, but if you wish to get started right away, simple follow, `https://fincharts.info/current/?key=api_key&base=USD` after signing up.
+This documentation mainly focuses on developer/technical integration for application consumption. Depending on your subscription plan, you will have access to our feature rich API that will allow you integrate ExactIP in your application using any backend of your choice. Only enterprise plans allow for Push Notifications, Web Socket integration. We advise you to browse through our documentation page to appreciate the power of ExactIP, but if you wish to get started right away, simple follow, `https://api.gogross.com/ip/?key=api_key` after signing up.
 
 ## API
 
@@ -31,19 +31,23 @@ ExactIP is CORS enabled and allows Access-Control Headers. This will enable you 
 
 ### NodeJS
 ```js
-const request = require ( 'request' );
+const ExactIP     = require ( 'exactip' );
+const exactIp     = new ExactIP ();
+const EXACTIP_KEY = process.env.EXACTIP_KEY;  // API Key
+const IP          = ""; // optional
 
-let api_key  = 'my_free_api_key', // signup for free at exactip.gogross.com
-    url      = 'https://api.gogross.com/ip/?key=' + api_key;
+exactIp.info ( EXACTIP_KEY, IP )
+	.then ( ( info ) => {
+		
+		console.log ( info );
+		
+	} )
+	.catch ( ( error ) => {
+		
+		console.trace ( error );
+		
+	} );
 
-request ( { url : url }, function ( error, response, body ) {
-	if ( error ) {
-		throw error
-	} else {
-		// body is returned
-		// console.log( body )
-	}
-} );
 ```
 
 Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 3.0 License, and code samples are licensed under the Apache 2.0 License. For details, see our Site Policies. Java is a registered trademark of Oracle and/or its affiliates.

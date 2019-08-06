@@ -1,10 +1,10 @@
 {
   "name": "exactip",
-  "version": "1.0.4",
-  "description": "",
+  "version": "1.0.5",
+  "description": "Identify your visitor using their IP address",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node -r dotenv/config index.js dotenv_config_path=.env --verbose"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/GoGross/exactip#readme",
   "dependencies": {
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "dotenv": "^5.0.1"
   }
 }
