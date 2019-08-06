@@ -37,6 +37,14 @@ ExactIP is CORS enabled and allows Access-Control Headers. This will enable you 
 ## :clipboard: Example
 
 ### NodeJS
+```
+curl -X POST \
+  -H "Content-Type: application/json" \
+  -d '{"ip":8.8.8.8,"EXACTIP_KEY":"get_api_key"}' \
+  https://api.gogross.com
+```
+
+
 ```js
 const ExactIP     = require ( 'exactip' );
 const exactIp     = new ExactIP ();
