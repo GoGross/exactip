@@ -1,6 +1,6 @@
 {
   "name": "exactip",
-  "version": "1.0.9",
+  "version": "2.0.1",
   "description": "Identify your visitor using their IP address",
   "main": "index.js",
   "scripts": {

@@ -1,4 +1,4 @@
-![FinCharts](https://github.com/GoGross/exactip/blob/master/exactip.png)
+![FinCharts](https://raw.githubusercontent.com/GoGross/exactip/master/exactip.png)
 
 ---
 ## ExactIP
