@@ -1,7 +1,7 @@
 ![FinCharts](https://raw.githubusercontent.com/GoGross/exactip/master/exactip.png)
 
 ---
-## ExactIP
+## ExactIP Premium
 
 Identify your visitor using their IP address. ExactIP runs in multiple datacenters around the world to provide a thourough and guaranteed geo service.
 

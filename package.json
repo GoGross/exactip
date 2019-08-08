@@ -1,6 +1,6 @@
 {
   "name": "exactip",
-  "version": "2.0.4",
+  "version": "2.0.6",
   "description": "Identify your visitor using their IP address",
   "keywords":"Carrier detection, IP Type, Hosting Data, geolocation, IP address data, ipinfo",
   "main": "index.js",
