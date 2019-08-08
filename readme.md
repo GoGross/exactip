@@ -41,7 +41,7 @@ ExactIP is CORS enabled and allows Access-Control Headers. This will enable you 
 curl -X GET \
   -H "Content-Type: application/json" \
   -d '{"ip":8.8.8.8,"EXACTIP_KEY":"get_api_key"}' \
-  https://api.gogross.com
+  https://api.gogross.com/ip/?key=get_free_api_key
 ```
 
 

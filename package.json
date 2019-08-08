@@ -1,11 +1,11 @@
 {
   "name": "exactip",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Identify your visitor using their IP address",
   "keywords":"Carrier detection, IP Type, Hosting Data, geolocation, IP address data, ipinfo",
   "main": "index.js",
   "scripts": {
-    "test": "node -r dotenv/config index.js dotenv_config_path=.env --verbose"
+    "start": "node -r dotenv/config index.js dotenv_config_path=.env --verbose"
   },
   "repository": {
     "type": "git",
