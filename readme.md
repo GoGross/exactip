@@ -15,7 +15,7 @@ npm install --save exactip
 
 ## Getting started
 
-[![FinCharts](https://raw.githubusercontent.com/GoGross/fincharts/master/free-key.jpg)](https://exactip.gogross.com)
+[![FinCharts](https://raw.githubusercontent.com/GoGross/fincharts/master/free-key.jpg)](https://gogross.com/exactip)
 
 Signup for a free account at exactip.gogross.com to obtain a free API Key.
 
